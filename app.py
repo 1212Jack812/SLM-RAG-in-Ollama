@@ -15,7 +15,7 @@ TOP_K = 5                                         # Number of relevant chunks to
 
 # --- Ollama API Functions ---
 
-def get_embedding(text, model=EMBEDDING_MODEL):
+def get_embedding(text, model=EMBEDDING_MODEL): # Ollama embedding model to embed user input text
     """
     Generates an embedding for the given text using the Ollama API.
     """
